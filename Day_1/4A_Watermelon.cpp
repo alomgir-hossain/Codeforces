@@ -8,7 +8,7 @@ int main()
     int w;
     cin >> w;
 
-    if (w > 4 && w % 2 == 0)
+    if (w >= 4 && w % 2 == 0)
     {
         cout << "Yes" << endl;
     }
