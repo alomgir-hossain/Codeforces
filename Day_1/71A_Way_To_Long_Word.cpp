@@ -1,32 +1,32 @@
 // todo: 1
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main()
-// {
-//     int n;
-//     cin >> n;
+int main()
+{
+    int n;
+    cin >> n;
 
-//     for (int i = 0; i < n; i++)
-//     {
-//         string word;
-//         cin >> word;
+    for (int i = 0; i < n; i++)
+    {
+        string word;
+        cin >> word;
 
-//         int len = word.length();
+        int len = word.length();
 
-//         if (len > 10)
-//         {
-//             cout << word[0] << len - 2 << word[len - 1] << endl;
-//         }
-//         else
-//         {
-//             cout << word << endl;
-//         }
-//     }
+        if (len > 10)
+        {
+            cout << word[0] << len - 2 << word[len - 1] << endl;
+        }
+        else
+        {
+            cout << word << endl;
+        }
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 // todo: 2
@@ -61,3 +61,37 @@ int main()
     return 0;
 }
 
+
+// todo: 3
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+
+    string words[100];
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> words[i];
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        int len = words[i].length();
+
+        if (words[i].length() > 10)
+        {
+            cout << words[i][0] << len - 2 << words[i][len - 1] << endl;
+        }
+        else
+        {
+            cout << words[i] << endl;
+        }
+    }
+
+    return 0;
+}
