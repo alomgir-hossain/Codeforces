@@ -1,3 +1,21 @@
+/*
+========================================
+Problem: 4A - Watermelon
+Rating: 800
+Topic: Mathematics, Implementation
+
+Approach:
+Check whether the total weight is even
+and at least 4.
+
+Time Complexity: O(1)
+Space Complexity: O(1)
+
+Key Learning:
+Using modulo (%) to check even numbers.
+========================================
+*/
+
 // todo: 1
 
 #include <iostream>
@@ -20,7 +38,6 @@ int main()
     return 0;
 }
 
-
 /*
 4A — Watermelon
 
@@ -41,7 +58,6 @@ Complexity: Time O(1), Space O(1).
 My mistake / lesson learned: Read the exact requirements. Equal division and division into two even parts are different conditions.
 
 */
-
 
 // todo: 2nd process
 
